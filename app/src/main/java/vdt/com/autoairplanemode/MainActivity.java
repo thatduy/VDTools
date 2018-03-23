@@ -54,6 +54,7 @@ public class MainActivity extends AppCompatActivity {
     EditText edtQuery;
     Button btnQuery;
     RecyclerView recycle_forecast;
+    String newInstance;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
