@@ -1,0 +1,120 @@
+<resources>
+    <string name="app_name">VDT Tools</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+
+    <string name="sample_device_admin_description">I am admin</string>
+
+    <string name="action_settings">About</string>
+    <string name="filter_active">Pixel Filter active\nTap to disable</string>
+    <string name="ntf_tap_swipe">Tap to configure, swipe to disable</string>
+    <string name="configure">Configure</string>
+    <string name="disable">Disable</string>
+    <string name="shift_pattern_description">To prevent pixels burn-in,\nshift pattern each:</string>
+    <string name="pattern_description">Pixel pattern:</string>
+    <string name="enable_filter_checkbox">Enable filter</string>
+    <string name="enable_light_sensor">Watch light level</string>
+    <string name="current_light_level">Current light level, lux:</string>
+    <string name="light_level_description">Turn off Pixel Filter after detecting bright light</string>
+    <string name="not_available">N/A</string>
+    <string name="disable_on">Turn off after, lux:</string>
+    <string name="current">Current</string>
+    <string name="tap_to_configure">Tap to configure</string>
+    <string name="swipe_to_disable">Swipe to disable</string>
+    <string name="enable_notification_checkbox">Enable notification</string>
+    <string name="turn_off">Turn off Pixel Filter</string>
+    <string name="action">Action:</string>
+    <string name="okay">Okay</string>
+    <string name="cancel">Cancel</string>
+    <string name="stop">Stop</string>
+    <string name="permission_denied_text">Cannot enable pixel filter without system permission</string>
+    <string name="ask_permission_title">Please permit Pixel Filter to draw over other apps in system settings</string>
+    <string name="ask_permissions_settins">Open system settings</string>
+    <string name="custom_1">Custom %d</string>
+    <string name="screen_black_warn_title">The screen will be black.</string>
+    <string name="screen_black_warn_text">The screen will be completely black. Are you sure?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="samsung_backlight">Turn off key backlight on Samsung phones</string>
+    <string name="tap_to_disable">Tap to disable</string>
+    <string name="intent_darker" translatable="false">screen.dimmer.pixelfilter.darker</string>
+    <string name="intent_brighter" translatable="false">screen.dimmer.pixelfilter.brighter</string>
+    <string name="darker">Darker</string>
+    <string name="brighter">Brighter</string>
+    <string name="swipe_to_configure">Swipe down to configure</string>
+    <string name="hide_notification">Hide notification from status bar</string>
+
+
+
+</resources>

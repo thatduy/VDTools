@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_save"
+        android:icon="@drawable/vdt"
+        android:title="Hi" />
+    <!-- menu group -->
+    <group android:id="@+id/group_delete">
+        <item android:id="@+id/menu_archive"
+            android:icon="@drawable/vdt"
+            android:title="Hello" />
+        <item android:id="@+id/menu_delete"
+            android:icon="@drawable/vdt"
+            android:title="VDT" />
+    </group>
+</menu>
