@@ -94,7 +94,7 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         });
-        displayCircle();
+
         btnQuery.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -276,8 +276,7 @@ public class MainActivity extends AppCompatActivity {
     void displayCircle(){
         if(Build.VERSION.SDK_INT >= 23) {
             if (!Settings.canDrawOverlays(this)) {
-                Intent intent = new Intent(Settings.ACTION_MANAGE_OVERLAY_PERMISSION, Uri.parse("package:" + getPackageName()));
-                intent.setAction("START");
+                Intent intent = new Intent(Settings.ACTION_MANAGE_OVERLAY_PERMISSION);
                 startActivityForResult(intent, 1234);
             } else {
                 Intent intent = new Intent(this, ChatHeadService.class);
@@ -339,6 +338,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onResume() {
         super.onResume();
         restoringPreferences();
+        displayCircle();
     }
     @Override
     public boolean dispatchTouchEvent(MotionEvent ev) {

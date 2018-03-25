@@ -94,11 +94,16 @@ public class ChatHeadService extends Service {
         chatHead.setBorderWidth(2);
         chatHead.setBorderColor(ContextCompat.getColor(this, R.color.white));
         chatHead.setImageResource(R.drawable.vdt);
-
+        int LAYOUT_FLAG;
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+            LAYOUT_FLAG = WindowManager.LayoutParams.TYPE_APPLICATION_OVERLAY;
+        } else {
+            LAYOUT_FLAG = WindowManager.LayoutParams.TYPE_PHONE;
+        }
         final WindowManager.LayoutParams params = new WindowManager.LayoutParams(
                 100,
                 100,
-                WindowManager.LayoutParams.TYPE_PHONE,
+                LAYOUT_FLAG,
                 WindowManager.LayoutParams.FLAG_NOT_FOCUSABLE,
                 PixelFormat.TRANSLUCENT);
 
